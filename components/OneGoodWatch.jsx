@@ -339,7 +339,9 @@ export default function OneGoodWatch() {
           .steps-grid { grid-template-columns: 1fr !important; }
           .tiers-grid { grid-template-columns: 1fr !important; }
           .hero-ctas { flex-direction: column; }
-          .cta-btn, .cta-btn-ghost { width: 100%; text-align: center; box-sizing: border-box; }
+          .cta-btn, .cta-btn-ghost { width: auto; align-self: flex-start; text-align: center; box-sizing: border-box; }
+          .scroll-indicator { display: none !important; }
+          .hero-bg { background-position: 60% 30% !important; opacity: 0.28 !important; }
           .philosophy-strip { flex-direction: column !important; gap: 12px !important; overflow: visible !important; }
           .philosophy-text { font-size: 15px !important; white-space: normal !important; }
           .footer-inner { flex-direction: column !important; align-items: flex-start !important; gap: 28px !important; }
@@ -389,7 +391,7 @@ export default function OneGoodWatch() {
         position: "relative", overflow: "hidden",
       }}>
         {/* Background image */}
-        <div style={{
+        <div className="hero-bg" style={{
           position: "absolute", top: 0, left: 0, right: 0, bottom: 0,
           backgroundImage: `url(${HERO_IMAGE})`,
           backgroundSize: "cover",
@@ -422,7 +424,7 @@ export default function OneGoodWatch() {
         </div>
 
         {/* Scroll indicator */}
-        <div style={{ position: "absolute", bottom: 40, right: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
+        <div className="scroll-indicator" style={{ position: "absolute", bottom: 40, right: 40, display: "flex", flexDirection: "column", alignItems: "center", gap: 8 }}>
           <div style={{ width: 1, height: 60, background: "linear-gradient(to bottom, transparent, #3d3930)" }} />
           <span className="section-label" style={{ writingMode: "vertical-rl" }}>Scroll</span>
         </div>
