@@ -7,10 +7,29 @@ const WHATSAPP_URL = "https://wa.me/919742815666?text=Hi%2C%20I%27d%20like%20to%
 const NAV_LINKS = ["How It Works", "About", "Book a Consultation"];
 
 const SUBSTACK_POSTS = [
-  { title: "Why Your First Watch Should Bore You", teaser: "The case for restraint when everything is screaming for your attention." },
-  { title: "Grey Market, Decoded", teaser: "What the AD won't tell you — and what the grey dealer hopes you won't ask." },
-  { title: "The Case for Buying Slowly", teaser: "Why the best collections are built over years, not afternoons." },
+  {
+    title: "Dear Sub: Meet the Man of Steel",
+    teaser: "The JLC Reverso is not a dress watch. It's functional violence with manners — and possibly the best watch in the world.",
+    url: "https://roopeshbalakrishna.substack.com/p/dear-sub-meet-the-man-of-steel",
+    img: "https://substackcdn.com/image/fetch/$s_!-N5_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17a371b3-a13c-4ca3-856e-43d7c23e40f7_5669x3965.jpeg"
+  },
+  {
+    title: "The Murph: Or, How I Bought a Watch to Feel Something in the Algorithm Age",
+    teaser: "I didn't buy the Hamilton Murph because I needed another watch. I bought it because of Interstellar guilt.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-murph-or-how-i-bought-a-watch",
+    img: "https://substackcdn.com/image/fetch/$s_!KU5T!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e16ad3-e75c-41df-b5fe-226ec6408379_3023x4004.heic"
+  },
+  {
+    title: "The Oris Kermit: A Neon Green Middle Finger to Watch Snobbery",
+    teaser: "Under that radioactive dial is everything a watch nerd pretends to care about. But that's not why I bought it.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-oris-kermit-a-neon-green-middle",
+    img: "https://substackcdn.com/image/fetch/$s_!_rVN!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd8f95a-68eb-4cdb-9925-5c92c7de6043_2500x3014.avif"
+  },
 ];
+
+const HERO_IMAGE = "https://substackcdn.com/image/fetch/$s_!sMJZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad5e5b54-d388-4606-8275-46c73a9b8b01_4032x3024.jpeg";
+
+const ABOUT_IMAGE = "https://substackcdn.com/image/fetch/$s_!WVZ0!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bd17656-67e1-415e-b68f-385b2e6b946f_3020x3926.heic";
 
 const TIERS = [
   {
@@ -265,6 +284,12 @@ export default function OneGoodWatch() {
 
         .divider { border: none; border-top: 1px solid #1e1c18; }
 
+        .about-grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 80px;
+        }
+
         .about-quote {
           font-family: 'Cormorant Garamond', serif;
           font-size: clamp(22px, 2.8vw, 30px);
@@ -308,6 +333,28 @@ export default function OneGoodWatch() {
           text-transform: uppercase;
           color: #8a8070;
         }
+
+        @media (max-width: 768px) {
+          .about-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+          .steps-grid { grid-template-columns: 1fr !important; }
+          .tiers-grid { grid-template-columns: 1fr !important; }
+          .hero-ctas { flex-direction: column; }
+          .cta-btn, .cta-btn-ghost { width: 100%; text-align: center; box-sizing: border-box; }
+          .philosophy-strip { flex-direction: column !important; gap: 12px !important; overflow: visible !important; }
+          .philosophy-text { font-size: 15px !important; white-space: normal !important; }
+          .footer-inner { flex-direction: column !important; align-items: flex-start !important; gap: 28px !important; }
+          .footer-links { flex-wrap: wrap !important; gap: 20px !important; }
+          .nav-links-desktop { display: none !important; }
+          .body-text { font-size: 17px !important; line-height: 1.65 !important; }
+          .section-title { font-size: clamp(28px, 8vw, 44px) !important; }
+          .hero-title { font-size: clamp(52px, 14vw, 80px) !important; }
+          .tier-desc { font-size: 16px !important; line-height: 1.6 !important; }
+          .step-body { font-size: 16px !important; }
+          .about-quote { font-size: 18px !important; line-height: 1.5 !important; }
+          .post-title { font-size: 20px !important; }
+          section { padding-left: 24px !important; padding-right: 24px !important; }
+          nav { padding-left: 24px !important; padding-right: 24px !important; }
+        }
       `}</style>
 
       {/* NAV */}
@@ -325,7 +372,7 @@ export default function OneGoodWatch() {
           fontSize: 12, letterSpacing: "0.2em", textTransform: "uppercase",
           color: "#e8e4dc", background: "none", border: "none", cursor: "pointer",
         }}>One Good Watch</button>
-        <div style={{ display: "flex", gap: 40, alignItems: "center" }}>
+        <div style={{ display: "flex", gap: 40, alignItems: "center" }} className="nav-links-desktop">
           {NAV_LINKS.map(link => (
             <button key={link} className="nav-link"
               onClick={() => scrollTo(link.toLowerCase().replace(/\s+/g, "-"))}>
@@ -341,6 +388,15 @@ export default function OneGoodWatch() {
         justifyContent: "flex-end", padding: "0 40px 80px",
         position: "relative", overflow: "hidden",
       }}>
+        {/* Background image */}
+        <div style={{
+          position: "absolute", top: 0, left: 0, right: 0, bottom: 0,
+          backgroundImage: `url(${HERO_IMAGE})`,
+          backgroundSize: "cover",
+          backgroundPosition: "80% center",
+          opacity: 0.22,
+          zIndex: 0,
+        }} />
         {/* Background circles */}
         <div style={{ position: "absolute", top: "12%", right: "-5%", width: "45vw", height: "45vw", borderRadius: "50%", border: "1px solid #1e1c18", opacity: 0.4 }} />
         <div style={{ position: "absolute", top: "8%", right: "-10%", width: "55vw", height: "55vw", borderRadius: "50%", border: "1px solid #181614", opacity: 0.25 }} />
@@ -356,9 +412,9 @@ export default function OneGoodWatch() {
           </h1>
           <div style={{ marginTop: 48, maxWidth: 540 }} className="fade-up-delay-2">
             <p className="body-text" style={{ marginBottom: 40 }}>
-              Buying a serious watch is one of the few decisions where taste, knowledge, and timing all have to align. Most people navigate it alone. They don't have to.
+              Buying a serious watch is one of the few decisions where taste, knowledge, and timing all have to align. Most people navigate it alone. You don't have to.
             </p>
-            <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
+            <div className="hero-ctas" style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               <button className="cta-btn" onClick={() => window.open(WHATSAPP_URL, "_blank")}>Start the Conversation</button>
               <button className="cta-btn-ghost" onClick={() => scrollTo("how-it-works")}>How it works</button>
             </div>
@@ -373,7 +429,7 @@ export default function OneGoodWatch() {
       </section>
 
       {/* PHILOSOPHY STRIP */}
-      <div style={{ borderTop: "1px solid #1e1c18", borderBottom: "1px solid #1e1c18", padding: "28px 40px", display: "flex", gap: 60, overflowX: "auto" }}>
+      <div className="philosophy-strip" style={{ borderTop: "1px solid #1e1c18", borderBottom: "1px solid #1e1c18", padding: "28px 40px", display: "flex", gap: 60, overflowX: "auto" }}>
         {[
           "Judgment over volume",
           "Taste over trend",
@@ -395,7 +451,7 @@ export default function OneGoodWatch() {
             <h2 className="section-title">Three steps.<br />One right watch.</h2>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 0 }}>
+          <div className="steps-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 0 }}>
             {STEPS.map((step, i) => (
               <div key={i} style={{
                 padding: "40px 32px",
@@ -417,7 +473,7 @@ export default function OneGoodWatch() {
             <h2 className="section-title">Three ways to work together.</h2>
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 1, background: "#1e1c18" }}>
+          <div className="tiers-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 1, background: "#1e1c18" }}>
             {TIERS.map((tier, i) => (
               <div key={i} className={`tier-card${tier.featured ? " featured" : ""}`}
                 style={{ background: tier.featured ? "#111108" : "#0e0e0e" }}>
@@ -450,7 +506,7 @@ export default function OneGoodWatch() {
 
       {/* ABOUT */}
       <section id="about" style={{ padding: "120px 40px", borderTop: "1px solid #1e1c18", background: "#090908" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 80 }}>
+        <div className="about-grid">
           <div>
             <div className="section-label" style={{ marginBottom: 20 }}>About</div>
             <h2 className="section-title" style={{ marginBottom: 40 }}>
@@ -467,35 +523,83 @@ export default function OneGoodWatch() {
             </p>
           </div>
           <div style={{ display: "flex", flexDirection: "column", justifyContent: "center" }}>
-            <blockquote className="about-quote" style={{ marginBottom: 48, paddingLeft: 32, borderLeft: "2px solid #3d3930" }}>
+            {/* Watch image */}
+            <div style={{
+              width: "100%",
+              aspectRatio: "4/3",
+              overflow: "hidden",
+              marginBottom: 40,
+            }}>
+              <img
+                src={ABOUT_IMAGE}
+                alt="From the collection"
+                style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.85) contrast(1.05)" }}
+              />
+            </div>
+            <blockquote className="about-quote" style={{ marginBottom: 0, paddingLeft: 32, borderLeft: "2px solid #3d3930" }}>
               "The market does not need another watch retailer. It needs someone with taste, relationships, and the confidence to say: this one — and here is why."
             </blockquote>
-            <div className="section-label" style={{ marginBottom: 16 }}>From Wound Daily</div>
-            <div style={{ marginBottom: 28 }}>
-              <WoundDailyMark width={180} />
-            </div>
-            <button className="cta-btn-ghost" style={{ alignSelf: "flex-start" }}
-              onClick={() => window.open("https://roopeshbalakrishna.substack.com", "_blank")}>
-              Read the Substack ↗
-            </button>
           </div>
         </div>
       </section>
 
       {/* SUBSTACK STRIP */}
-      <section style={{ padding: "80px 40px", borderTop: "1px solid #1e1c18" }}>
+      <section style={{ padding: "100px 40px", borderTop: "1px solid #1e1c18" }}>
         <div style={{ maxWidth: 800, margin: "0 auto" }}>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 16 }}>
-            <div className="section-label">From Wound Daily</div>
-            <button className="nav-link" style={{ fontSize: 10 }}>All posts ↗</button>
+
+          {/* Header */}
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 48, flexWrap: "wrap", gap: 24 }}>
+            <div>
+              <div className="section-label" style={{ marginBottom: 16 }}>The Writing</div>
+              <WoundDailyMark width={160} />
+            </div>
+            <div style={{ maxWidth: 340 }}>
+              <p style={{
+                fontFamily: "'Cormorant Garamond', serif",
+                fontSize: 20,
+                lineHeight: 1.7,
+                color: "#8a8070",
+                fontStyle: "italic",
+              }}>
+                Writing on watches, collecting, and the quiet discipline of buying well. For those who think before they buy.
+              </p>
+            </div>
           </div>
+
           <hr className="divider" />
+
+          {/* Posts */}
           {SUBSTACK_POSTS.map((post, i) => (
-            <div key={i} className="post-card">
+            <div key={i} className="post-card" onClick={() => window.open(post.url || "https://roopeshbalakrishna.substack.com", "_blank")}>
+              {post.img && (
+                <div style={{ width: "100%", height: 280, overflow: "hidden", marginBottom: 24 }}>
+                  <img src={post.img} alt={post.title} style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(0.85)", transition: "transform 0.6s ease" }}
+                    onMouseOver={e => e.target.style.transform = "scale(1.02)"}
+                    onMouseOut={e => e.target.style.transform = "scale(1)"}
+                  />
+                </div>
+              )}
               <div className="post-title">{post.title}</div>
               <div className="post-teaser">{post.teaser}</div>
             </div>
           ))}
+
+          {/* CTA */}
+          <div style={{ marginTop: 48, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 24 }}>
+            <p style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontSize: 18,
+              fontStyle: "italic",
+              color: "#5a5448",
+            }}>
+              New essays on watches, collecting, and the decisions that matter.
+            </p>
+            <button className="cta-btn-ghost"
+              onClick={() => window.open("https://roopeshbalakrishna.substack.com", "_blank")}>
+              Read Wound Daily ↗
+            </button>
+          </div>
+
         </div>
       </section>
 
@@ -534,23 +638,34 @@ export default function OneGoodWatch() {
       </section>
 
       {/* FOOTER */}
-      <footer style={{
-        borderTop: "1px solid #1e1c18", padding: "48px 40px",
-        display: "flex", justifyContent: "space-between", alignItems: "center",
-        flexWrap: "wrap", gap: 24,
-      }}>
+      <footer style={{ borderTop: "1px solid #1e1c18", padding: "48px 40px" }}>
+        <div className="footer-inner" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 24 }}>
         <div>
           <div style={{ fontFamily: "'DM Mono', 'Courier New', monospace", fontSize: 12, letterSpacing: "0.2em", textTransform: "uppercase", color: "#e8e4dc", marginBottom: 8 }}>
             One Good Watch
           </div>
           <div className="section-label">Luxury Watch Advisory · India</div>
         </div>
-        <div style={{ display: "flex", gap: 40 }}>
+        <div className="footer-links" style={{ display: "flex", gap: 40 }}>
           {["How It Works", "About", "Book", "Wound Daily ↗"].map(link => (
             <button key={link} className="nav-link">{link}</button>
           ))}
         </div>
         <div className="section-label">© 2025 One Good Watch</div>
+        <div style={{
+          width: "100%",
+          borderTop: "1px solid #1a1814",
+          marginTop: 24,
+          paddingTop: 24,
+          fontFamily: "'DM Mono', 'Courier New', monospace",
+          fontSize: 9,
+          letterSpacing: "0.1em",
+          color: "#3a3830",
+          lineHeight: 1.6,
+        }}>
+          All recommendations are advisory in nature. One Good Watch may have commercial relationships with certain dealers. Engagements do not constitute financial, investment, or legal advice.
+        </div>
+        </div>
       </footer>
     </div>
   );
