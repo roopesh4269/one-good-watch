@@ -1,0 +1,6 @@
+/* Global styles — component handles its own resets and fonts */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
