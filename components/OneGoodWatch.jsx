@@ -342,8 +342,10 @@ export default function OneGoodWatch() {
           .cta-btn, .cta-btn-ghost { width: auto; align-self: flex-start; text-align: center; box-sizing: border-box; }
           .scroll-indicator { display: none !important; }
           .hero-bg { background-position: 60% 30% !important; opacity: 0.28 !important; }
-          .philosophy-strip { flex-direction: column !important; gap: 12px !important; overflow: visible !important; }
+          .philosophy-strip { flex-direction: column !important; gap: 0 !important; overflow: visible !important; }
           .philosophy-text { font-size: 15px !important; white-space: normal !important; }
+          .philosophy-dot { display: none !important; }
+          .philosophy-item { border-bottom: 1px solid #1a1814 !important; padding: 14px 0 !important; white-space: normal !important; }
           .footer-inner { flex-direction: column !important; align-items: flex-start !important; gap: 28px !important; }
           .footer-links { flex-wrap: wrap !important; gap: 20px !important; }
           .nav-links-desktop { display: none !important; }
@@ -438,8 +440,8 @@ export default function OneGoodWatch() {
           "The right watch at the right moment",
           "Transparency built into every engagement",
         ].map((p, i) => (
-          <div key={i} style={{ display: "flex", alignItems: "center", gap: 20, whiteSpace: "nowrap" }}>
-            {i > 0 && <div style={{ width: 4, height: 4, background: "#3d3930", borderRadius: "50%", flexShrink: 0 }} />}
+          <div key={i} className="philosophy-item" style={{ display: "flex", alignItems: "center", gap: 20, whiteSpace: "nowrap" }}>
+            {i > 0 && <div className="philosophy-dot" style={{ width: 4, height: 4, background: "#3d3930", borderRadius: "50%", flexShrink: 0 }} />}
             <span className="philosophy-text">{p}</span>
           </div>
         ))}
@@ -614,13 +616,17 @@ export default function OneGoodWatch() {
             <span style={{ fontStyle: "italic", color: "#c8b887" }}>One right watch.</span>
           </h2>
           <p className="body-text" style={{ marginBottom: 40, maxWidth: 480, margin: "0 auto 40px" }}>
-            Select your engagement below, then start a conversation on WhatsApp. A short brief before we talk is all it takes.
+            Start with a WhatsApp message and we'll take it from there. Or if you'd rather come prepared, fill in a short brief first.
           </p>
 
-          <div style={{ display: "block", marginBottom: 60 }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16, marginBottom: 32 }}>
             <button className="cta-btn" style={{ fontSize: 12, padding: "20px 52px" }}
               onClick={() => window.open(WHATSAPP_URL, "_blank")}>
               Message on WhatsApp
+            </button>
+            <button className="cta-btn-ghost" style={{ fontSize: 11, padding: "16px 40px" }}
+              onClick={() => window.open("https://4mphuo5mrko.typeform.com/to/aG0LrOQH", "_blank")}>
+              Fill in a brief first ↗
             </button>
           </div>
 
