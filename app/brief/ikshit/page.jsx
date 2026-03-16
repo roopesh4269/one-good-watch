@@ -23,8 +23,8 @@ const sections = [
     label: "Section 1",
     title: "Your Profile",
     body: [
-      "Ikshit – you named the PRX. I'm not going to pretend I didn't notice. The PRX is a good watch. It's well-made, well-priced, and the internet will tell you it's the obvious first buy. But you also said you want something that stays for generations. Something that gets handed down and told about. Those are two very different briefs, and the PRX only answers one of them.",
-      "Here's what I know about you. You rode a Ducati Monster. You work at Apple. Neither of those things is an accident – they're choices that say something about how you think. You don't buy a Honda because it's sensible. You buy something with a point of view, an engine worth understanding, and a shape that means something. The watch brief you actually described – heritage, daily wear, something worth passing on – deserves the same standard. So let's talk about what that watch actually is.",
+      "Ikshit — you named the PRX. I'm not going to pretend I didn't notice. The PRX is a good watch. It's well-made, well-priced, and the internet will tell you it's the obvious first buy. But you also said you want something that stays for generations. Something that gets handed down and told about. Those are two very different briefs, and the PRX only answers one of them.",
+      "Here's what I know about you. You rode a Ducati Monster. You work at Apple. Neither of those things is an accident — they're choices that say something about how you think. You don't buy a Honda because it's sensible. You buy something with a point of view, an engine worth understanding, and a shape that means something. The watch brief you actually described — heritage, daily wear, something worth passing on — deserves the same standard. So let's talk about what that watch actually is.",
     ],
   },
   {
@@ -32,11 +32,11 @@ const sections = [
     label: "Section 2",
     title: "What You're Looking For",
     bullets: [
-      "Budget: Under ₹2L – firm ceiling for now",
-      "Use: Daily wear – on the wrist constantly, needs to earn that place",
-      "Intent: A first serious watch – one that starts a collection, not just fills a wrist",
-      "Heritage: A watch with a story – something worth explaining to someone who asks",
-      "Pre-owned: Open – I am reaching out to contacts. If the right piece comes up, it changes this brief entirely",
+      "Budget: Under ₹2L — firm ceiling for now",
+      "Use: Daily wear — on the wrist constantly, needs to earn that place",
+      "Intent: A first serious watch — one that starts a collection, not just fills a wrist",
+      "Heritage: A watch with a story — something worth explaining to someone who asks",
+      "Pre-owned: Open — I am reaching out to contacts. If the right piece comes up, it changes this brief entirely",
     ],
   },
 ];
@@ -49,9 +49,9 @@ const watches = [
     img2: "/watches/nomos-wrist.jpg",
     name: "NOMOS Glashütte Club Campus",
     ref: "Ref. 722.GB",
-    why: "This is the one that makes sense the moment you see it – if you understand what you are looking at. NOMOS is the largest manufacturer of mechanical watches in Germany, made entirely in Glashütte – the only town outside Switzerland with that credential. The Club Campus is their most accessible entry point: 38.5mm, bold Arabic numerals, in-house Alpha movement, and a night sky blue dial that is genuinely beautiful without announcing itself. It is the watch equivalent of a product built by people who care deeply about getting every detail right and have no interest in telling you about it. For someone who chose a Monster and works at Apple – the logic will be immediate.",
+    why: "This is the one that makes sense the moment you see it — if you understand what you are looking at. NOMOS is the largest manufacturer of mechanical watches in Germany, made entirely in Glashütte — the only town outside Switzerland with that credential. The Club Campus is their most accessible entry point: 38.5mm, bold Arabic numerals, in-house Alpha movement, and a night sky blue dial that is genuinely beautiful without announcing itself. It is the watch equivalent of a product built by people who care deeply about getting every detail right and have no interest in telling you about it. For someone who chose a Monster and works at Apple — the logic will be immediate.",
     specs: "38.5mm polished stainless steel case. In-house Calibre Alpha hand-wound, 17 jewels, 43-hour power reserve. Blue dial, luminous numerals, small seconds at 6. Sapphire crystal. 30m water resistance. Leather strap.",
-    caveat: "Hand-wound only. No automatic rotor – you wind it daily. Some find this a ritual worth keeping. Others find it easy to forget. Know which one you are before you commit.",
+    caveat: "Hand-wound only. No automatic rotor — you wind it daily. Some find this a ritual worth keeping. Others find it easy to forget. Know which one you are before you commit.",
     availability: "Available new with authorised dealers. ₹1.83L. Sourcing on request.",
   },
 
@@ -61,9 +61,9 @@ const watches = [
     img2: "/watches/baltic-wrist.jpg",
     name: "Baltic Aquascaphe",
     ref: "Ref. AQUAMK2",
-    why: "Baltic was founded in 2017 by a French watchmaker who spent years obsessing over mid-century dive watches before deciding to build his own. The Aquascaphe is the result – a 39mm vintage-inspired diver assembled in Besançon with an ETA movement, domed sapphire crystal, and a dial that looks like it was pulled from 1965. It is not a heritage watch in the traditional sense. But it is a watch with a genuine point of view, built by people who care about getting details right. At ₹70K–₹80K new via No Hype Horology, it leaves serious room in the budget for what comes next.",
+    why: "Baltic was founded in 2017 by a French watchmaker who spent years obsessing over mid-century dive watches before deciding to build his own. The Aquascaphe is the result — a 39mm vintage-inspired diver assembled in Besançon with an ETA movement, domed sapphire crystal, and a dial that looks like it was pulled from 1965. It is not a heritage watch in the traditional sense. But it is a watch with a genuine point of view, built by people who care about getting details right. At ₹70K–₹80K new via No Hype Horology, it leaves serious room in the budget for what comes next.",
     specs: "39mm stainless steel case. ETA 2824-2 automatic. 38-hour power reserve. Domed sapphire crystal. 200m water resistance. Leather or NATO strap.",
-    caveat: "ETA movement is solid but not exceptional. If movement finishing matters to you, look elsewhere. The value argument is the whole point here – the design quality punches well above the price.",
+    caveat: "ETA movement is solid but not exceptional. If movement finishing matters to you, look elsewhere. The value argument is the whole point here — the design quality punches well above the price.",
     availability: "Available with select dealers and on request.",
   },
   {
@@ -72,9 +72,9 @@ const watches = [
     img2: "/watches/tourby-angled.jpg",
     name: "Tourby Marine Automatic Enamel 37",
     ref: "German independent",
-    why: "This is the one nobody in your office will be able to place – and that is the point. Tourby is a small German independent. The Marine 37 has an enamel lacquer dial – a technique that involves firing glass at extreme temperatures and that normally lives on watches costing four to five times more. Pair that with heat-blued steel hands, a La Joux-Perret automatic adjusted in 5 positions, and 68 hours of power reserve, and you have a watch that is significantly more serious than its price suggests. The kind of thing a Ducati rider would understand immediately – all the engineering, none of the badge.",
+    why: "This is the one nobody in your office will be able to place — and that is the point. Tourby is a small German independent. The Marine 37 has an enamel lacquer dial — a technique that involves firing glass at extreme temperatures and that normally lives on watches costing four to five times more. Pair that with heat-blued steel hands, a La Joux-Perret automatic adjusted in 5 positions, and 68 hours of power reserve, and you have a watch that is significantly more serious than its price suggests. The kind of thing a Ducati rider would understand immediately — all the engineering, none of the badge.",
     specs: "37mm stainless steel case, 9.45mm thin. La Joux-Perret automatic, 24 jewels, 68-hour power reserve. Accuracy −2/+8 seconds per day. Domed sapphire crystal. 100m water resistance. Leather strap.",
-    caveat: "37mm is compact. On a larger wrist it sits as a dress watch, not a statement. The enamel dial is irreplaceable if damaged – handle with more care than a standard watch.",
+    caveat: "37mm is compact. On a larger wrist it sits as a dress watch, not a statement. The enamel dial is irreplaceable if damaged — handle with more care than a standard watch.",
     availability: "Available with select dealers and on request.",
   },
   {
@@ -83,9 +83,9 @@ const watches = [
     img2: "/watches/earthen-wrist.jpg",
     name: "Earthen Co Summit Whiteout MK II",
     ref: "Ceramic field watch",
-      why: "Ceramic cases are a luxury material – you find them on Rado, on IWC, on watches that start at ₹3L. Earthen Co is a Hong Kong brand founded by watch collectors, and they built the Summit in full ceramic at under ₹80K. Inspired by the IWC Mark XI pilot dial, Miyota 9039 movement, 100m water resistance, and a white ceramic case with a matte black dial that creates contrast so clean it looks designed by the same person who designed your MacBook. For a first watch it is an extraordinary conversation starter. Currently sold out – I am sourcing.",
+      why: "Ceramic cases are a luxury material — you find them on Rado, on IWC, on watches that start at ₹3L. Earthen Co is a Hong Kong brand founded by watch collectors, and they built the Summit in full ceramic at under ₹80K. Inspired by the IWC Mark XI pilot dial, Miyota 9039 movement, 100m water resistance, and a white ceramic case with a matte black dial that creates contrast so clean it looks designed by the same person who designed your MacBook. For a first watch it is an extraordinary conversation starter. Currently sold out — I am sourcing.",
     specs: "38mm white ceramic case, 10mm thin. Miyota 9039 automatic, 24 jewels, 42-hour power reserve. 100m water resistance. White sailcloth strap and NATO included.",
-    caveat: "Miyota movement is reliable but not refined. This is a watch you buy for the case material, the design, and the value – not the movement. Currently sold out; availability subject to sourcing.",
+    caveat: "Miyota movement is reliable but not refined. This is a watch you buy for the case material, the design, and the value — not the movement. Currently sold out; availability subject to sourcing.",
     availability: "Available on request. Pricing approximately ₹75K–₹80K.",
   },
   {
@@ -94,9 +94,9 @@ const watches = [
     img2: "/watches/farer-lume.jpg",
     name: "Farer Lander IV GMT",
     ref: "39.5mm Swiss automatic",
-    why: "Farer is a British brand, Swiss-made, founded in 2015 by people who felt that bold dial design had disappeared from watchmaking at this price point. The Lander IV is their GMT – 39.5mm, Sellita SW330-2 movement, sea green sunray dial with Arabic numerals overprinted with Super-LumiNova, screw-down crown, sapphire caseback. A GMT complication means two time zones simultaneously – useful if you travel, and the kind of function that makes a watch earn its keep daily. The colour and personality of this watch are genuinely different from everything else on this list. For someone who rode a Monster, the Lander is the watch that grins back at you.",
+    why: "Farer is a British brand, Swiss-made, founded in 2015 by people who felt that bold dial design had disappeared from watchmaking at this price point. The Lander IV is their GMT — 39.5mm, Sellita SW330-2 movement, sea green sunray dial with Arabic numerals overprinted with Super-LumiNova, screw-down crown, sapphire caseback. A GMT complication means two time zones simultaneously — useful if you travel, and the kind of function that makes a watch earn its keep daily. The colour and personality of this watch are genuinely different from everything else on this list. For someone who rode a Monster, the Lander is the watch that grins back at you.",
     specs: "39.5mm stainless steel case, 10.8mm thin. Sellita SW330-2 GMT automatic, 25 jewels, 56-hour power reserve. 100m water resistance. Screw-down crown. Sapphire caseback.",
-    caveat: "The dial is bold – sea green with GMT hand in red. If your wardrobe runs conservative this will feel loud. It is designed to be looked at. Not for everyone.",
+    caveat: "The dial is bold — sea green with GMT hand in red. If your wardrobe runs conservative this will feel loud. It is designed to be looked at. Not for everyone.",
     availability: "Available with select dealers and on request.",
   },
 ];
@@ -104,8 +104,8 @@ const watches = [
 
 
 const nextSteps = [
-  "After our call, the goal is simple: narrow this shortlist down to one or two pieces that genuinely fit – not just the budget, but the brief you actually described. Heritage, daily wear, something worth passing on.",
-  "Come prepared to tell me which of these you felt drawn to and why. The ones that made you pause are more useful than the ones that just made sense on paper. Once we have a short list, I will take care of the rest – sourcing, viewing, and making sure what ends up on your wrist is the right call.",
+  "After our call, the goal is simple: narrow this shortlist down to one or two pieces that genuinely fit — not just the budget, but the brief you actually described. Heritage, daily wear, something worth passing on.",
+  "Come prepared to tell me which of these you felt drawn to and why. The ones that made you pause are more useful than the ones that just made sense on paper. Once we have a short list, I will take care of the rest — sourcing, viewing, and making sure what ends up on your wrist is the right call.",
   "One thing before we speak: if you have not seen the Panerai PAM00753 on a wrist in photos, look it up. 45mm is a commitment and I want you to arrive with eyes open.",
 ];
 
@@ -200,10 +200,11 @@ function WatchCard({ watch, index }) {
     }}>
       {/* Header row */}
       <div
+        className="card-header"
         onClick={() => setOpen(!open)}
         style={{
           display: "flex", alignItems: "center", justifyContent: "space-between",
-          padding: "28px 36px", cursor: "pointer",
+          cursor: "pointer",
           background: open ? "#141210" : "transparent",
           transition: "background 0.25s",
         }}
@@ -213,10 +214,10 @@ function WatchCard({ watch, index }) {
             {String(index + 1).padStart(2, "0")}
           </div>
           <div>
-            <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 26, color: "#f0ece4", fontWeight: 600 }}>
+            <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 21, color: "#f0ece4", fontWeight: 600 }}>
               {watch.name}
             </div>
-            <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 12, color: MID, marginTop: 5, letterSpacing: "0.1em" }}>
+            <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: MID, marginTop: 4, letterSpacing: "0.1em" }}>
               {watch.ref}
             </div>
           </div>
@@ -233,7 +234,7 @@ function WatchCard({ watch, index }) {
         <div style={{ borderTop: `1px solid ${RULE}` }}>
 
           {/* Two images side by side */}
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 2 }}>
+          <div className="img-grid">
             {watch.img1 ? (
               <img src={watch.img1} alt={watch.name} style={{
                 width: "100%", height: 320, objectFit: "cover", display: "block",
@@ -255,9 +256,9 @@ function WatchCard({ watch, index }) {
           </div>
 
           {/* Content */}
-          <div style={{ padding: "40px 36px 36px" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 40 }}>
-              <div style={{ gridColumn: "1 / -1" }}>
+          <div className="card-content">
+            <div className="content-grid">
+              <div className="full-col">
                 <Label>Why this fits you</Label>
                 <Body>{watch.why}</Body>
               </div>
@@ -269,7 +270,7 @@ function WatchCard({ watch, index }) {
                 <Label>One honest caveat</Label>
                 <Body muted italic>{watch.caveat}</Body>
               </div>
-              <div style={{ gridColumn: "1 / -1" }}>
+              <div className="full-col">
                 <Label>Availability</Label>
                 <Body muted>{watch.availability}</Body>
               </div>
@@ -286,8 +287,8 @@ function WatchCard({ watch, index }) {
 function Label({ children }) {
   return (
     <div style={{
-      fontFamily: "'DM Mono', monospace", fontSize: 11, letterSpacing: "0.2em",
-      textTransform: "uppercase", color: MID, marginBottom: 12,
+      fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em",
+      textTransform: "uppercase", color: MID, marginBottom: 10,
     }}>{children}</div>
   );
 }
@@ -296,7 +297,7 @@ function Body({ children, muted, italic }) {
   return (
     <p style={{
       fontFamily: "'Cormorant Garamond', serif",
-      fontSize: 21, lineHeight: 1.85,
+      fontSize: 17, lineHeight: 1.75,
       color: muted ? "#8a8070" : "#d8d4cc",
       fontStyle: italic ? "italic" : "normal",
       margin: "0 0 16px",
@@ -307,8 +308,8 @@ function Body({ children, muted, italic }) {
 function SectionLabel({ text }) {
   return (
     <div style={{
-      fontFamily: "'DM Mono', monospace", fontSize: 11, letterSpacing: "0.25em",
-      textTransform: "uppercase", color: MID, marginBottom: 14,
+      fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.25em",
+      textTransform: "uppercase", color: MID, marginBottom: 12,
     }}>{text}</div>
   );
 }
@@ -316,8 +317,8 @@ function SectionLabel({ text }) {
 function SectionTitle({ children }) {
   return (
     <h2 style={{
-      fontFamily: "'Cormorant Garamond', serif", fontSize: 44, fontWeight: 600,
-      color: "#f0ece4", margin: "0 0 36px", lineHeight: 1.2,
+      fontFamily: "'Cormorant Garamond', serif", fontSize: 36, fontWeight: 600,
+      color: "#f0ece4", margin: "0 0 28px", lineHeight: 1.2,
     }}>{children}</h2>
   );
 }
@@ -339,10 +340,30 @@ function Brief() {
         .fade-up { animation: fadeUp 0.9s ease forwards; }
         .fade-up-2 { animation: fadeUp 0.9s 0.15s ease both; }
         .fade-up-3 { animation: fadeUp 0.9s 0.3s ease both; }
+        .img-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+        .content-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        .full-col { grid-column: 1 / -1; }
+        .cover-meta { display: flex; gap: 60px; margin-top: 60px; flex-wrap: wrap; }
+        .cover-pad { padding: 120px 60px 100px; border-bottom: 1px solid #1e1c18; }
+        .content-pad { max-width: 860px; margin: 0 auto; padding: 80px 60px; }
+        .card-header { padding: 28px 36px; }
+        .card-content { padding: 40px 36px 36px; }
+        @media (max-width: 640px) {
+          .img-grid { grid-template-columns: 1fr; }
+          .img-grid img { height: 260px !important; }
+          .content-grid { grid-template-columns: 1fr; gap: 24px; }
+          .full-col { grid-column: 1; }
+          .cover-pad { padding: 60px 24px 56px; }
+          .content-pad { padding: 48px 24px; }
+          .card-header { padding: 20px 20px; }
+          .card-content { padding: 24px 20px 28px; }
+          .cover-meta { gap: 28px; margin-top: 36px; }
+          .brief-header { padding: 16px 20px !important; }
+        }
       `}</style>
 
       {/* Header */}
-      <header style={{
+      <header className="brief-header" style={{
         borderBottom: `1px solid ${RULE}`, padding: "24px 60px",
         display: "flex", justifyContent: "space-between", alignItems: "center",
         position: "sticky", top: 0, background: DARK, zIndex: 10,
@@ -351,19 +372,19 @@ function Brief() {
           One Good Watch
         </div>
         <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "#3a3830", textTransform: "uppercase" }}>
-          Confidential – {client.name}
+          Confidential — {client.name}
         </div>
       </header>
 
       {/* Cover */}
-      <div style={{ padding: "120px 60px 100px", borderBottom: `1px solid ${RULE}` }}>
+      <div className="cover-pad">
         <div className="fade-up" style={{ maxWidth: 720 }}>
-          <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 12, letterSpacing: "0.25em", color: MID, textTransform: "uppercase", marginBottom: 28 }}>
+          <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, letterSpacing: "0.25em", color: MID, textTransform: "uppercase", marginBottom: 20 }}>
             Watch Advisory Briefing
           </div>
           <h1 style={{
             fontFamily: "'Cormorant Garamond', serif", margin: 0,
-            fontSize: "clamp(60px, 8vw, 100px)", lineHeight: 1.05, fontWeight: 600,
+            fontSize: "clamp(36px, 7vw, 72px)", lineHeight: 1.05, fontWeight: 600,
           }}>
             <span style={{ color: "#f0ece4", display: "block" }}>Prepared</span>
             <span style={{ color: GOLD, fontStyle: "italic", display: "block" }}>for {client.name}</span>
@@ -384,7 +405,7 @@ function Brief() {
       </div>
 
       {/* Content */}
-      <div style={{ maxWidth: 860, margin: "0 auto", padding: "80px 60px" }}>
+      <div className="content-pad">
 
         {/* Sections 1 & 2 */}
         {sections.map((s, i) => (
@@ -397,7 +418,7 @@ function Brief() {
                 {s.bullets.map((b, j) => (
                   <div key={j} style={{ display: "flex", gap: 16, marginBottom: 16, alignItems: "flex-start" }}>
                     <div style={{ width: 4, height: 4, background: MID, borderRadius: "50%", marginTop: 10, flexShrink: 0 }} />
-                    <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 19, color: "#d8d4cc", lineHeight: 1.7 }}>{b}</div>
+                    <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 16, color: "#d8d4cc", lineHeight: 1.7 }}>{b}</div>
                   </div>
                 ))}
               </div>
@@ -407,11 +428,11 @@ function Brief() {
 
         <Rule />
 
-        {/* Section 3 – Shortlist */}
+        {/* Section 3 — Shortlist */}
         <div style={{ marginBottom: 80 }}>
           <SectionLabel text="Section 3" />
           <SectionTitle>The Shortlist</SectionTitle>
-          <Body>Five options across two categories – established houses and microbrands. The microbrands here are not consolation prizes. They are the picks that serious collectors are making right now at this price point. Each one earns its place.</Body>
+          <Body>Seven options across two categories — established houses and microbrands. The microbrands here are not consolation prizes. They are the picks that serious collectors are making right now at this price point. Each one earns its place.</Body>
           <div style={{ marginTop: 40 }}>
             {watches.map((w, i) => <WatchCard key={w.id} watch={w} index={i} />)}
           </div>
@@ -419,7 +440,7 @@ function Brief() {
 
         <Rule />
 
-        {/* Section 4 – Next Steps */}
+        {/* Section 4 — Next Steps */}
         <div style={{ marginBottom: 80 }}>
           <SectionLabel text="Section 4" />
           <SectionTitle>Next Steps</SectionTitle>
