@@ -61,7 +61,7 @@ const watches = [
     img2: "/watches/baltic-wrist.jpg",
     name: "Baltic Aquascaphe",
     ref: "Ref. AQUAMK2",
-    why: "Baltic was founded in 2017 by a French watchmaker who spent years obsessing over mid-century dive watches before deciding to build his own. The Aquascaphe is the result – a 39mm vintage-inspired diver assembled in Besançon with an ETA movement, domed sapphire crystal, and a dial that looks like it was pulled from 1965. It is not a heritage watch in the traditional sense. But it is a watch with a genuine point of view, built by people who care about getting details right. At ₹70K–₹80K new via No Hype Horology, it leaves serious room in the budget for what comes next.",
+    why: "Baltic was founded in 2017 by a French watchmaker who spent years obsessing over mid-century dive watches before deciding to build his own. The Aquascaphe is the result – a 39mm vintage-inspired diver assembled in Besançon with an ETA movement, domed sapphire crystal, and a dial that looks like it was pulled from 1965. It is not a heritage watch in the traditional sense. But it is a watch with a genuine point of view, built by people who care about getting details right. At ₹70K–₹80K new, it leaves serious room in the budget for what comes next.",
     specs: "39mm stainless steel case. ETA 2824-2 automatic. 38-hour power reserve. Domed sapphire crystal. 200m water resistance. Leather or NATO strap.",
     caveat: "ETA movement is solid but not exceptional. If movement finishing matters to you, look elsewhere. The value argument is the whole point here – the design quality punches well above the price.",
     availability: "Available with select dealers and on request.",
@@ -104,9 +104,9 @@ const watches = [
 
 
 const nextSteps = [
-  "After our call, the goal is simple: narrow this shortlist down to one or two pieces that genuinely fit – not just the budget, but the brief you actually described. Heritage, daily wear, something worth passing on.",
+  "After our call, the goal is simple: Narrow this shortlist down to one or two pieces that genuinely fit – not just the budget, but the brief you actually described. Heritage, daily wear, something worth passing on.",
   "Come prepared to tell me which of these you felt drawn to and why. The ones that made you pause are more useful than the ones that just made sense on paper. Once we have a short list, I will take care of the rest – sourcing, viewing, and making sure what ends up on your wrist is the right call.",
-  "One thing before we speak: if you have not seen the Panerai PAM00753 on a wrist in photos, look it up. 45mm is a commitment and I want you to arrive with eyes open.",
+  "One thing before we speak: If you have not seen the Panerai PAM00753 on a wrist in photos, look it up. 45mm is a commitment and I want you to arrive with eyes open.",
 ];
 
 // ─── PASSWORD GATE ────────────────────────────────────────────────────────────
