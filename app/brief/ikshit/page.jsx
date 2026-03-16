@@ -83,7 +83,7 @@ const watches = [
     img2: "/watches/earthen-wrist.jpg",
     name: "Earthen Co Summit Whiteout MK II",
     ref: "Ceramic field watch",
-      why: "Ceramic cases are a luxury material – you find them on Rado, on IWC, on watches that start at ₹3L. Earthen Co is a Hong Kong brand founded by watch collectors, and they built the Summit in full ceramic at under ₹80K. Inspired by the IWC Mark XI pilot dial, Miyota 9039 movement, 100m water resistance, and a white ceramic case with a matte black dial that creates contrast so clean it looks designed by the same person who designed your MacBook. For a first watch it is an extraordinary conversation starter. Currently sold out – I am sourcing.",
+      why: "Ceramic cases are a luxury material – you find them on Rado, on IWC, on watches that start at ₹3L. Earthen Co is a Hong Kong brand founded by watch collectors, and they built the Summit in full ceramic at under ₹80K. Inspired by the IWC Mark XI pilot dial, Miyota 9039 movement, 100m water resistance, and a white ceramic case with a matte black dial that creates contrast so clean it looks designed by the same person who designed your MacBook. For a first watch it is an extraordinary conversation starter.",
     specs: "38mm white ceramic case, 10mm thin. Miyota 9039 automatic, 24 jewels, 42-hour power reserve. 100m water resistance. White sailcloth strap and NATO included.",
     caveat: "Miyota movement is reliable but not refined. This is a watch you buy for the case material, the design, and the value – not the movement. Currently sold out; availability subject to sourcing.",
     availability: "Available on request. Pricing approximately ₹75K–₹80K.",
