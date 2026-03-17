@@ -659,7 +659,7 @@ export default function OneGoodWatch() {
             <button key={link} className="nav-link">{link}</button>
           ))}
         </div>
-        <div className="section-label">© 2025 One Good Watch</div>
+        <div className="section-label">© 2026 One Good Watch | Roopesh Balakrishna | All Rights Reserved</div>
         <div style={{
           width: "100%",
           borderTop: "1px solid #1a1814",
