@@ -85,7 +85,7 @@ const watches = [
     ref: "Ceramic field watch",
       why: "Ceramic cases are a luxury material – you find them on Rado, on IWC, on watches that start at ₹3L. Earthen Co is a Hong Kong brand founded by watch collectors, and they built the Summit in full ceramic at under ₹80K. Inspired by the IWC Mark XI pilot dial, Miyota 9039 movement, 100m water resistance, and a white ceramic case with a matte black dial that creates contrast so clean it looks designed by the same person who designed your MacBook. For a first watch it is an extraordinary conversation starter.",
     specs: "38mm white ceramic case, 10mm thin. Miyota 9039 automatic, 24 jewels, 42-hour power reserve. 100m water resistance. White sailcloth strap and NATO included.",
-    caveat: "Miyota movement is reliable but not refined. This is a watch you buy for the case material, the design, and the value – not the movement. Currently sold out; availability subject to sourcing.",
+    caveat: "Miyota movement is reliable but not refined. This is a watch you buy for the case material, the design, and the value – not the movement.",
     availability: "Available on request. Pricing approximately ₹75K–₹80K.",
   },
   {
@@ -106,7 +106,7 @@ const watches = [
 const nextSteps = [
   "After our call, the goal is simple: Narrow this shortlist down to one or two pieces that genuinely fit – not just the budget, but the brief you actually described. Heritage, daily wear, something worth passing on.",
   "Come prepared to tell me which of these you felt drawn to and why. The ones that made you pause are more useful than the ones that just made sense on paper. Once we have a short list, I will take care of the rest – sourcing, viewing, and making sure what ends up on your wrist is the right call.",
-  "One thing before we speak: If you have not seen the Panerai PAM00753 on a wrist in photos, look it up. 45mm is a commitment and I want you to arrive with eyes open.",
+  "One thing before we speak: On the openness towards pre-owned, if you have not seen a Panerai PAM00753 on a wrist in photos, look it up. It's an Italian beauty and I think it will speak to you. 45mm is a commitment and I want you to arrive with eyes open.",
 ];
 
 // ─── PASSWORD GATE ────────────────────────────────────────────────────────────
