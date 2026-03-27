@@ -94,7 +94,7 @@ export default function OneGoodWatch() {
       const script = document.createElement("script");
       script.id = "emailjs-sdk";
       script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js";
-      script.onload = () => window.emailjs && window.emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+      script.onload = () => window.emailjs && window.emailjs.init("Bobhr4x-kTgUG9Y64");
       document.head.appendChild(script);
     }
   }, []);
@@ -114,8 +114,8 @@ export default function OneGoodWatch() {
     setFormStatus("sending");
     try {
       await window.emailjs.send(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_fprt7br",
+        "template_qh2cr9b",
         {
           from_name: form.name,
           from_phone: form.phone,
