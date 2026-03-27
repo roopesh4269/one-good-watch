@@ -386,7 +386,7 @@ export default function OGWIntake() {
         const body = Object.entries(finalAnswers)
           .map(([k, v]) => `${k}: ${v}`)
           .join("\n");
-        await window.emailjs.send("service_fprt7br", "template_qh2cr9b", {
+        await window.emailjs.send("service_fprt7br", "template_a2225xi", {
           from_name: finalAnswers.name || "Unknown",
           from_phone: finalAnswers.phone || "—",
           budget: finalAnswers.budget || "—",
