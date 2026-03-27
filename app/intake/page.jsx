@@ -386,7 +386,7 @@ export default function OGWIntake() {
         const body = Object.entries(finalAnswers)
           .map(([k, v]) => `${k}: ${v}`)
           .join("\n");
-        await window.emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        await window.emailjs.send("service_fprt7br", "template_qh2cr9b", {
           from_name: finalAnswers.name || "Unknown",
           from_phone: finalAnswers.phone || "—",
           budget: finalAnswers.budget || "—",
@@ -413,7 +413,7 @@ export default function OGWIntake() {
       const s = document.createElement("script");
       s.id = "emailjs-sdk";
       s.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js";
-      s.onload = () => window.emailjs?.init("YOUR_EMAILJS_PUBLIC_KEY");
+      s.onload = () => window.emailjs?.init("Bobhr4x-kTgUG9Y64");
       document.head.appendChild(s);
     }
   }, []);
