@@ -25,8 +25,50 @@ const SUBSTACK_POSTS = [
     url: "https://roopeshbalakrishna.substack.com/p/the-oris-kermit-a-neon-green-middle",
     img: "https://substackcdn.com/image/fetch/$s_!_rVN!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd8f95a-68eb-4cdb-9925-5c92c7de6043_2500x3014.avif"
   },
+const SUBSTACK_POSTS = [
+  {
+    title: "Dear Sub: Meet the Man of Steel",
+    teaser: "The JLC Reverso is not a dress watch. It's functional violence with manners — and possibly the best watch in the world.",
+    url: "https://roopeshbalakrishna.substack.com/p/dear-sub-meet-the-man-of-steel",
+    img: "https://substackcdn.com/image/fetch/$s_!-N5_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17a371b3-a13c-4ca3-856e-43d7c23e40f7_5669x3965.jpeg"
+  },
+  {
+    title: "The Murph: Or, How I Bought a Watch to Feel Something in the Algorithm Age",
+    teaser: "I didn't buy the Hamilton Murph because I needed another watch. I bought it because of Interstellar guilt.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-murph-or-how-i-bought-a-watch",
+    img: "https://substackcdn.com/image/fetch/$s_!KU5T!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e16ad3-e75c-41df-b5fe-226ec6408379_3023x4004.heic"
+  },
+  {
+    title: "The Oris Kermit: A Neon Green Middle Finger to Watch Snobbery",
+    teaser: "Under that radioactive dial is everything a watch nerd pretends to care about. But that's not why I bought it.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-oris-kermit-a-neon-green-middle",
+    img: "https://substackcdn.com/image/fetch/$s_!_rVN!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd8f95a-68eb-4cdb-9925-5c92c7de6043_2500x3014.avif"
+  },
+  {
+    title: "There is Nothing More Iconic Than the El Primero",
+    teaser: "A high-beat automatic chronograph that has refused to sit quietly in a museum and keeps proving it's still relevant decades later.",
+    url: "https://roopeshbalakrishna.substack.com/p/there-is-nothing-more-iconic-than",
+    img: "https://substackcdn.com/image/fetch/$s_!SOIF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b789697-b314-4af2-bdfa-eb1ff25c0398_4032x3024.jpeg"
+  },
+  {
+    title: "The Prince Who Outranks the Pilot",
+    teaser: "Why one of the boldest watches in my collection is named after a children's book character.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-prince-who-outranks-the-pilot",
+    img: "https://substackcdn.com/image/fetch/$s_!J906!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d01d752-ddb8-4cc6-b0bf-1c3346605fe6_2824x3331.jpeg"
+  },
+  {
+    title: "Carl Bucherer is Dead. Long Live the BiCompax.",
+    teaser: "The Aston DB5s, driving gloves, the watch Bond never wore but should've, and Wick never took off.",
+    url: "https://roopeshbalakrishna.substack.com/p/carl-bucherer-is-dead-long-live-the",
+    img: "https://substackcdn.com/image/fetch/$s_!wJbp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31b84d83-781a-43f4-8e5c-3e233db0aa84_567x292.jpeg"
+  },
+  {
+    title: "Thirty Eight Turns.",
+    teaser: "No complications. No hype. No flex. Just the Grand Seiko SBGW231 — a watch that exists quietly and doesn't care if you notice.",
+    url: "https://roopeshbalakrishna.substack.com/p/thirty-eight-turns",
+    img: "https://substackcdn.com/image/fetch/$s_!FsIE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc272f79f-5ce8-45ba-b917-4b1fd1d2bc36_3024x4032.heic"
+  },
 ];
-
 const HERO_IMAGE = "https://substackcdn.com/image/fetch/$s_!sMJZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad5e5b54-d388-4606-8275-46c73a9b8b01_4032x3024.jpeg";
 
 const ABOUT_IMAGE = "https://substackcdn.com/image/fetch/$s_!WVZ0!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bd17656-67e1-415e-b68f-385b2e6b946f_3020x3926.heic";
