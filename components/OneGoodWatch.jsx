@@ -115,7 +115,7 @@ export default function OneGoodWatch() {
     try {
       await window.emailjs.send(
         "service_fprt7br",
-        "template_qh2cr9b",
+        "template_a2225xi",
         {
           from_name: form.name,
           from_phone: form.phone,
