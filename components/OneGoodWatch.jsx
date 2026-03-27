@@ -25,31 +25,8 @@ const SUBSTACK_POSTS = [
     url: "https://roopeshbalakrishna.substack.com/p/the-oris-kermit-a-neon-green-middle",
     img: "https://substackcdn.com/image/fetch/$s_!_rVN!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd8f95a-68eb-4cdb-9925-5c92c7de6043_2500x3014.avif"
   },
-  {
-    title: "There is Nothing More Iconic Than the El Primero",
-    teaser: "A high-beat automatic chronograph that has refused to sit quietly in a museum and keeps proving it's still relevant decades later.",
-    url: "https://roopeshbalakrishna.substack.com/p/there-is-nothing-more-iconic-than",
-    img: "https://substackcdn.com/image/fetch/$s_!SOIF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b789697-b314-4af2-bdfa-eb1ff25c0398_4032x3024.jpeg"
-  },
-  {
-    title: "The Prince Who Outranks the Pilot",
-    teaser: "Why one of the boldest watches in my collection is named after a children's book character.",
-    url: "https://roopeshbalakrishna.substack.com/p/the-prince-who-outranks-the-pilot",
-    img: "https://substackcdn.com/image/fetch/$s_!J906!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d01d752-ddb8-4cc6-b0bf-1c3346605fe6_2824x3331.jpeg"
-  },
-  {
-    title: "Carl Bucherer is Dead. Long Live the BiCompax.",
-    teaser: "The Aston DB5s, driving gloves, the watch Bond never wore but should've, and Wick never took off.",
-    url: "https://roopeshbalakrishna.substack.com/p/carl-bucherer-is-dead-long-live-the",
-    img: "https://substackcdn.com/image/fetch/$s_!wJbp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31b84d83-781a-43f4-8e5c-3e233db0aa84_567x292.jpeg"
-  },
-  {
-    title: "Thirty Eight Turns.",
-    teaser: "No complications. No hype. No flex. Just the Grand Seiko SBGW231 — a watch that exists quietly and doesn't care if you notice.",
-    url: "https://roopeshbalakrishna.substack.com/p/thirty-eight-turns",
-    img: "https://substackcdn.com/image/fetch/$s_!FsIE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc272f79f-5ce8-45ba-b917-4b1fd1d2bc36_3024x4032.heic"
-  },
 ];
+
 const HERO_IMAGE = "https://substackcdn.com/image/fetch/$s_!sMJZ!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad5e5b54-d388-4606-8275-46c73a9b8b01_4032x3024.jpeg";
 
 const ABOUT_IMAGE = "https://substackcdn.com/image/fetch/$s_!WVZ0!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bd17656-67e1-415e-b68f-385b2e6b946f_3020x3926.heic";
@@ -108,6 +85,19 @@ const WoundDailyMark = ({ width = 220 }) => (
 export default function OneGoodWatch() {
   const [scrolled, setScrolled] = useState(false);
   const heroRef = useRef(null);
+  const [form, setForm] = useState({ name: "", phone: "", budget: "", message: "" });
+  const [formStatus, setFormStatus] = useState("idle"); // idle | sending | sent | error
+
+  useEffect(() => {
+    // Load EmailJS
+    if (!document.getElementById("emailjs-sdk")) {
+      const script = document.createElement("script");
+      script.id = "emailjs-sdk";
+      script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js";
+      script.onload = () => window.emailjs && window.emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
+      document.head.appendChild(script);
+    }
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 60);
@@ -117,6 +107,28 @@ export default function OneGoodWatch() {
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleFormSubmit = async () => {
+    if (!form.name || !form.phone) return;
+    setFormStatus("sending");
+    try {
+      await window.emailjs.send(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        {
+          from_name: form.name,
+          from_phone: form.phone,
+          budget: form.budget,
+          message: form.message,
+          to_email: "roopesh.balakrishna@gmail.com",
+        }
+      );
+      setFormStatus("sent");
+      setForm({ name: "", phone: "", budget: "", message: "" });
+    } catch {
+      setFormStatus("error");
+    }
   };
 
   return (
@@ -279,6 +291,24 @@ export default function OneGoodWatch() {
         }
         .cta-btn-ghost:hover { border-color: #c8b887; color: #e8e4dc; }
 
+        .brief-form input, .brief-form select, .brief-form textarea {
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid #2a2820;
+          color: #e8e4dc;
+          font-family: 'Cormorant Garamond', serif;
+          font-size: 17px;
+          padding: 12px 0;
+          width: 100%;
+          outline: none;
+          transition: border-color 0.25s;
+          appearance: none;
+        }
+        .brief-form input::placeholder, .brief-form textarea::placeholder { color: #3d3930; }
+        .brief-form input:focus, .brief-form select:focus, .brief-form textarea:focus { border-bottom-color: #c8b887; }
+        .brief-form select { cursor: pointer; background-image: none; }
+        .brief-form select option { background: #1a1814; color: #e8e4dc; }
+        .brief-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 32px; }
         .post-card {
           border-bottom: 1px solid #1e1c18;
           padding: 32px 0;
@@ -364,6 +394,7 @@ export default function OneGoodWatch() {
           .hero-ctas { flex-direction: column; }
           .cta-btn, .cta-btn-ghost { width: auto; align-self: flex-start; text-align: center; box-sizing: border-box; }
           .scroll-indicator { display: none !important; }
+        .brief-form-grid { grid-template-columns: 1fr !important; }
           .hero-bg { background-position: 60% 30% !important; opacity: 0.28 !important; }
           .philosophy-strip { flex-direction: column !important; gap: 0 !important; overflow: visible !important; }
           .philosophy-text { font-size: 15px !important; white-space: normal !important; }
@@ -443,6 +474,7 @@ export default function OneGoodWatch() {
             </p>
             <div className="hero-ctas" style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
               <button className="cta-btn" onClick={() => window.open(WHATSAPP_URL, "_blank")}>Start the Conversation</button>
+              <button className="cta-btn-ghost" onClick={() => window.location.href="/intake"}>Fill in a Brief</button>
               <button className="cta-btn-ghost" onClick={() => scrollTo("how-it-works")}>How it works</button>
             </div>
           </div>
@@ -619,7 +651,7 @@ export default function OneGoodWatch() {
               fontStyle: "italic",
               color: "#5a5448",
             }}>
-              My reviews on watches, collecting and the decisions that matter.
+              New essays on watches, collecting, and the decisions that matter.
             </p>
             <button className="cta-btn-ghost"
               onClick={() => window.open("https://roopeshbalakrishna.substack.com", "_blank")}>
@@ -642,21 +674,88 @@ export default function OneGoodWatch() {
             Start with a WhatsApp message and we'll take it from there. Or if you'd rather come prepared, fill in a short brief first.
           </p>
 
-          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16, marginBottom: 32 }}>
+          <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 16, marginBottom: 56 }}>
             <button className="cta-btn" style={{ fontSize: 12, padding: "20px 52px" }}
               onClick={() => window.open(WHATSAPP_URL, "_blank")}>
               Message on WhatsApp
             </button>
-            <button className="cta-btn-ghost" style={{ fontSize: 11, padding: "16px 40px" }}
-              onClick={() => window.open("https://4mphuo5mrko.typeform.com/to/aG0LrOQH", "_blank")}>
-              Fill in a brief first ↗
-            </button>
-          </div>
-
-          <div style={{ marginBottom: 24 }}>
-            <p style={{ fontFamily: "'DM Mono', 'Courier New', monospace", fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: "#6a6458", textAlign: "center" }}>
+            <p style={{ fontFamily: "'DM Mono', 'Courier New', monospace", fontSize: 10, letterSpacing: "0.15em", textTransform: "uppercase", color: "#6a6458", textAlign: "center", margin: 0 }}>
               +91 97428 15666 · Responds within 24 hours
             </p>
+          </div>
+
+          {/* INLINE FORM */}
+          <div style={{ borderTop: "1px solid #1e1c18", paddingTop: 56, textAlign: "left" }}>
+            <div className="section-label" style={{ marginBottom: 8, textAlign: "center" }}>Or fill in a brief</div>
+            <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 17, color: "#6a6458", textAlign: "center", marginBottom: 40, fontStyle: "italic" }}>
+              I'll review it before we speak and come prepared.
+            </p>
+
+            {formStatus === "sent" ? (
+              <div style={{ textAlign: "center", padding: "48px 0" }}>
+                <div style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 26, color: "#c8b887", fontStyle: "italic", marginBottom: 12 }}>
+                  Got it.
+                </div>
+                <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 17, color: "#6a6458" }}>
+                  I'll review this and reach out within 24 hours.
+                </p>
+              </div>
+            ) : (
+              <div className="brief-form">
+                <div className="brief-form-grid">
+                  <div>
+                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em", color: "#6a6458", textTransform: "uppercase", marginBottom: 8 }}>Name</div>
+                    <input
+                      type="text" placeholder="Your name"
+                      value={form.name}
+                      onChange={e => setForm(f => ({ ...f, name: e.target.value }))}
+                    />
+                  </div>
+                  <div>
+                    <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em", color: "#6a6458", textTransform: "uppercase", marginBottom: 8 }}>Phone</div>
+                    <input
+                      type="tel" placeholder="+91"
+                      value={form.phone}
+                      onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
+                    />
+                  </div>
+                </div>
+                <div style={{ marginBottom: 32 }}>
+                  <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em", color: "#6a6458", textTransform: "uppercase", marginBottom: 8 }}>Budget</div>
+                  <select value={form.budget} onChange={e => setForm(f => ({ ...f, budget: e.target.value }))}>
+                    <option value="">Select a range</option>
+                    <option value="Under ₹2L">Under ₹2L</option>
+                    <option value="₹2L – ₹5L">₹2L – ₹5L</option>
+                    <option value="₹5L – ₹10L">₹5L – ₹10L</option>
+                    <option value="Above ₹10L">Above ₹10L</option>
+                  </select>
+                </div>
+                <div style={{ marginBottom: 40 }}>
+                  <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em", color: "#6a6458", textTransform: "uppercase", marginBottom: 8 }}>What are you looking for?</div>
+                  <textarea
+                    rows={3} placeholder="A first serious watch. Adding to a collection. A gift. No idea yet — that's fine too."
+                    value={form.message}
+                    onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
+                    style={{ resize: "none" }}
+                  />
+                </div>
+                {formStatus === "error" && (
+                  <p style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#c47c7c", letterSpacing: "0.1em", marginBottom: 16, textTransform: "uppercase" }}>
+                    Something went wrong. Try WhatsApp instead.
+                  </p>
+                )}
+                <div style={{ textAlign: "center" }}>
+                  <button
+                    className="cta-btn"
+                    style={{ fontSize: 11, padding: "18px 48px", opacity: formStatus === "sending" ? 0.6 : 1 }}
+                    onClick={handleFormSubmit}
+                    disabled={formStatus === "sending"}
+                  >
+                    {formStatus === "sending" ? "Sending..." : "Send Brief"}
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
 
           <div style={{ padding: "32px", border: "1px solid #1e1c18", textAlign: "left" }}>
@@ -682,7 +781,7 @@ export default function OneGoodWatch() {
             <button key={link} className="nav-link">{link}</button>
           ))}
         </div>
-        <div className="section-label">© 2026 One Good Watch | Roopesh Balakrishna | All Rights Reserved</div>
+        <div className="section-label">© 2025 One Good Watch</div>
         <div style={{
           width: "100%",
           borderTop: "1px solid #1a1814",
