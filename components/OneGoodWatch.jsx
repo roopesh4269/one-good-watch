@@ -619,7 +619,7 @@ export default function OneGoodWatch() {
               fontStyle: "italic",
               color: "#5a5448",
             }}>
-              New essays on watches, collecting, and the decisions that matter.
+              My reviews on watches, collecting and the decisions that matter.
             </p>
             <button className="cta-btn-ghost"
               onClick={() => window.open("https://roopeshbalakrishna.substack.com", "_blank")}>
