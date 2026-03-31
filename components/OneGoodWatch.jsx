@@ -447,7 +447,7 @@ export default function OneGoodWatch() {
       {/* HERO */}
       <section id="hero" ref={heroRef} style={{
         minHeight: "100vh", display: "flex", flexDirection: "column",
-        justifyContent: "flex-end", padding: "0 40px 80px",
+        justifyContent: "flex-end", padding: "72px 40px 80px",
         position: "relative", overflow: "hidden",
       }}>
         {/* Background image */}
