@@ -94,7 +94,7 @@ export default function OneGoodWatch() {
       const script = document.createElement("script");
       script.id = "emailjs-sdk";
       script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js";
-      script.onload = () => window.emailjs && window.emailjs.init("Bobhr4x-kTgUG9Y64");
+      script.onload = () => window.emailjs && window.emailjs.init("YOUR_EMAILJS_PUBLIC_KEY");
       document.head.appendChild(script);
     }
   }, []);
@@ -114,8 +114,8 @@ export default function OneGoodWatch() {
     setFormStatus("sending");
     try {
       await window.emailjs.send(
-        "service_fprt7br",
-        "template_a2225xi",
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
         {
           from_name: form.name,
           from_phone: form.phone,
@@ -418,8 +418,9 @@ export default function OneGoodWatch() {
       {/* NAV */}
       <nav style={{
         position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
-        padding: "0 40px", height: 64,
+        padding: "0 40px", height: 64, minHeight: 64,
         display: "flex", alignItems: "center", justifyContent: "space-between",
+        flexWrap: "nowrap", overflow: "hidden",
         background: scrolled ? "rgba(14,14,14,0.96)" : "transparent",
         borderBottom: scrolled ? "1px solid #1e1c18" : "1px solid transparent",
         transition: "all 0.4s",
@@ -429,8 +430,9 @@ export default function OneGoodWatch() {
           fontFamily: "'DM Mono', 'Courier New', monospace",
           fontSize: 12, letterSpacing: "0.2em", textTransform: "uppercase",
           color: "#e8e4dc", background: "none", border: "none", cursor: "pointer",
+          whiteSpace: "nowrap", flexShrink: 0,
         }}>One Good Watch</button>
-        <div style={{ display: "flex", gap: 40, alignItems: "center" }} className="nav-links-desktop">
+        <div style={{ display: "flex", gap: "clamp(16px, 3vw, 40px)", alignItems: "center", flexShrink: 0 }} className="nav-links-desktop">
           {NAV_LINKS.map(link => (
             <button key={link} className="nav-link"
               onClick={() => scrollTo(link.toLowerCase().replace(/\s+/g, "-"))}>
@@ -461,7 +463,7 @@ export default function OneGoodWatch() {
 
         <div style={{ maxWidth: 900, position: "relative", zIndex: 1 }}>
           <div className="hero-sub fade-up" style={{ marginBottom: 32 }}>
-            Luxury Watch Advisory — India
+            Luxury Watch Advisory – India
           </div>
           <h1 className="hero-title fade-up-delay">
             One<br />
