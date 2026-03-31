@@ -96,14 +96,13 @@ const watches = [
     why: "Nothing on this list — or anyone else's list — is like this watch. The dial is made from real ground coffee beans. James Thompson, Arcanaut's materials director, spent years developing a composite that binds freshly ground coffee with a UV-resistant resin, mills it into a plate, and cuts it into a dial. Each of the 33 dials is fractionally different — the grain, the texture, the depth. The ARC II case is micro-blasted 316L stainless steel, CNC-milled in Copenhagen, with hand-polished highlights applied by Danish watchmakers. The Soprod M100 inside is a Swiss-made automatic adjusted in 5 positions. There is no numbers track, no date, no GMT — just hours and minutes and a dial that looks like an espresso puck photographed from space. It is 33 pieces worldwide, full stop. You bought a watch that 32 other people on the planet own. As a founder who has spent years building something genuinely different from everything else in the market — you will understand immediately why this exists.",
     specs: "40.52mm stainless steel case, 12.82mm thick, 49.06mm lug-to-lug. Soprod M100 Swiss automatic, adjusted in 5 positions, 28,800vph, 42-hour power reserve. 100m water resistance. Real coffee composite dial — unique per piece. 33 pieces total production.",
     caveat: "Time-only — no date, no GMT, no complication. The resale market for Arcanaut is thin outside collector circles. This is not an appreciation play — it is a statement of taste. Buy it because you want to own something that nobody else in the room has ever seen, not because it will be worth more in five years.",
-    availability: "Approximately ₹4,00,000 delivered. 33 pieces worldwide — confirm availability before anything else.",
+    availability: "Approximately ₹4,00,000 delivered. 33 pieces worldwide — need to confirm availability before anything else.",
   },
 ];
 
 const nextSteps = [
-  "After our call: one watch. Not a shortlist, not a maybe pile. One piece that fits your wrist, your brief, and the way you actually live. You said daily wear and you meant it. That rules out anything you will be careful around. What stays is what you forget is there — until someone asks.",
-  "Come with a view. Not necessarily a decision — a direction. Tell me which of these pulled at you and why. The one that made you pause is more useful than the one that just made sense on paper. Once we know the direction, I handle the rest.",
-  "One thing worth doing before we speak: if the Arcanaut is still available when you read this, find out now. 33 pieces is not a number that waits.",
+  "After our call, we narrow down on one watch. One piece that fits your wrist, your brief and the way you actually live. You said daily wear and you meant it. That rules out anything you will be careful around.",
+  "Do come with a view. Not necessarily a decision — a direction. Tell me which of these pulled at you and why. The one that made you pause is more useful than the one that just made sense on paper. Once we know the direction, we can handle the rest.",
 ];
 
 // ─── PASSWORD GATE ────────────────────────────────────────────────────────────
