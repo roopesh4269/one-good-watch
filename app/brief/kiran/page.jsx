@@ -23,8 +23,8 @@ const sections = [
     label: "Section 1",
     title: "Your Profile",
     body: [
-      "Kiran — you said sport and functional. Daily wear, on the wrist constantly. Movement complexity pulls you in. And you want it to hold value. That last part is where most people get this wrong: they walk into a watch purchase with the appreciation argument and walk out with a TAG Heuer. So let us be precise about what this brief actually means.",
-      "You built ekincare from a standing start. $27M raised. Duke Engineering Management. Angel investor writing cheques into other people's ideas. The kind of person who does not buy something because it is sensible — who buys something because they have thought it through and they are right. A watch for you is not a flex. It is a position. And positions require a thesis. Mine is this: at ₹2L–₹5L, the watch that simultaneously earns daily wear, carries real mechanical interest, and holds financial ground is a short list. Five watches long, to be exact.",
+      "Kiran – you said sport and functional. Daily wear, on the wrist constantly. Movement complexity pulls you in. And you want it to hold value. That last part is where most people get this wrong: they walk into a watch purchase with the appreciation argument and walk out with a TAG Heuer. So let us be precise about what this brief actually means.",
+      "You built ekincare from a standing start. $27M raised. Duke Engineering Management. Angel investor writing cheques into other people's ideas. The kind of person who does not buy something because it is sensible – who buys something because they have thought it through and they are right. A watch for you is not a flex. It is a position. And positions require a thesis. Mine is this: at ₹2L–₹5L, the watch that simultaneously earns daily wear, carries real mechanical interest, and holds financial ground is a short list. Five watches long, to be exact.",
     ],
   },
   {
@@ -32,12 +32,12 @@ const sections = [
     label: "Section 2",
     title: "What You're Looking For",
     bullets: [
-      "Budget: ₹2L–₹5L — with room to stretch for the right piece",
-      "Use: Daily wear — on the wrist constantly, needs to work with everything",
-      "Style: Sport and functional — not a dress watch, not a conversation piece",
-      "Movement: Complexity matters — you want to understand what you are wearing",
-      "Value: Appreciation matters — this is not just a purchase, it is a position",
-      "Purchase: First serious watch — the one that starts the collection",
+      "Budget: ₹2L–₹5L – with room to stretch for the right piece",
+      "Use: Daily wear – on the wrist constantly, needs to work with everything",
+      "Style: Sport and functional – not a dress watch, not a conversation piece",
+      "Movement: Complexity matters – you want to understand what you are wearing",
+      "Value: Appreciation matters – this is not just a purchase, it is a position",
+      "Purchase: First serious watch – the one that starts the collection",
     ],
   },
 ];
@@ -49,9 +49,9 @@ const watches = [
     img2: "/watches/kiran-pelagos-wrist.jpg",
     name: "Tudor Pelagos 39",
     ref: "Ref. M25407N-0001 · ₹4,83,000 MRP",
-    why: "Titanium at this price is almost unheard of. Most watches in this bracket are steel — full stop. The Pelagos 39 gives you a full titanium case and bracelet, which means it sits lighter on the wrist than anything else on this list. The MT5402 is Tudor's own in-house movement — COSC-certified chronometer, 70-hour power reserve, visible through a sapphire caseback. The snowflake hands are a Tudor signature that no other brand uses. 200m water resistance, ceramic bezel insert, and the kind of tool-watch seriousness that does not apologise for itself. Tudor's appreciation trajectory has been one of the strongest in the segment — they made in-house movements, Rolex parentage provides the service network, and the brand has been consistently gaining collector respect since 2015. This is the pick if appreciation is the primary argument.",
+    why: "Titanium at this price is almost unheard of. Most watches in this bracket are steel – full stop. The Pelagos 39 gives you a full titanium case and bracelet, which means it sits lighter on the wrist than anything else on this list. The MT5402 is Tudor's own in-house movement – COSC-certified chronometer, 70-hour power reserve, visible through a sapphire caseback. The snowflake hands are a Tudor signature that no other brand uses. 200m water resistance, ceramic bezel insert, and the kind of tool-watch seriousness that does not apologise for itself. Tudor's appreciation trajectory has been one of the strongest in the segment – they made in-house movements, Rolex parentage provides the service network, and the brand has been consistently gaining collector respect since 2015. This is the pick if appreciation is the primary argument.",
     specs: "39mm titanium case and bracelet, 11.8mm thick. In-house Calibre MT5402 automatic, COSC-certified, 70-hour power reserve. Unidirectional rotating ceramic bezel. 200m water resistance. Sapphire caseback. Snowflake hands.",
-    caveat: "₹4,83,000 MRP is the top of your stated range. Ethos and other ADs will negotiate — expect 5–10% off. The titanium bracelet is exceptional but the watch is heavy on the dial side due to the bezel. Try it on if you can before committing.",
+    caveat: "₹4,83,000 MRP is the top of your stated range. Ethos and other ADs will negotiate – expect 5–10% off. The titanium bracelet is exceptional but the watch is heavy on the dial side due to the bezel. Try it on if you can before committing.",
     availability: "MRP ₹4,83,000. Negotiation expected at authorised dealers.",
   },
   {
@@ -60,9 +60,9 @@ const watches = [
     img2: "/watches/kiran-iwc-angled.jpg",
     name: "IWC Pilot's Watch Mark XX",
     ref: "Ref. IW328207 · ₹5,83,000 MRP",
-    why: "The Mark line started in 1948 — built for the Royal Air Force, designed around one principle: tell the time in an instant, in any conditions. The Mark XX is the current iteration of that 76-year brief. What makes it genuinely interesting for you is the Calibre 32111: IWC's own movement, 120-hour power reserve — five full days — which is exceptional at any price point, let alone this one. The soft-iron inner case protects the movement from magnetic fields, a design feature carried unchanged from the original. 40mm wears perfectly as a daily piece. The white dial and Arabic numerals make it the most legible watch on this list by some distance. IWC sits firmly in the established Swiss house tier — service network, heritage, and the brand recognition that holds value. Over budget at MRP, but IWC is one of the most negotiated brands at Indian ADs.",
+    why: "The Mark line started in 1948 – built for the Royal Air Force, designed around one principle: tell the time in an instant, in any conditions. The Mark XX is the current iteration of that 76-year brief. What makes it genuinely interesting for you is the Calibre 32111: IWC's own movement, 120-hour power reserve – five full days – which is exceptional at any price point, let alone this one. The soft-iron inner case protects the movement from magnetic fields, a design feature carried unchanged from the original. 40mm wears perfectly as a daily piece. The white dial and Arabic numerals make it the most legible watch on this list by some distance. IWC sits firmly in the established Swiss house tier – service network, heritage, and the brand recognition that holds value. Over budget at MRP, but IWC is one of the most negotiated brands at Indian ADs.",
     specs: "40mm stainless steel case. In-house Calibre 32111 automatic, 120-hour power reserve. Soft-iron inner case for magnetic resistance. 10 bar (100m) water resistance. Sapphire crystal. EasX-CHANGE strap system. Date at 3.",
-    caveat: "₹5,83,000 MRP is above your stated ceiling. With negotiation and the right AD relationship, it can come within ₹5L — but it requires a conversation. Go in knowing the number you want. Worth it if the movement story and the heritage argument speak to you.",
+    caveat: "₹5,83,000 MRP is above your stated ceiling. With negotiation and the right AD relationship, it can come within ₹5L – but it requires a conversation. Go in knowing the number you want. Worth it if the movement story and the heritage argument speak to you.",
     availability: "MRP ₹5,83,000. Significant negotiation possible at authorised dealers.",
   },
   {
@@ -71,9 +71,9 @@ const watches = [
     img2: "/watches/kiran-farer-lume.jpg",
     name: "Farer Lander IV GMT",
     ref: "Ref. Lander IV 39.5mm · ~₹1,65,000 via NoHype",
-    why: "British design, Swiss-made, founded in 2015. The Lander IV is their GMT — which means two time zones simultaneously, tracked by a fourth hand that runs a 24-hour scale independently of the main time. This is a real mechanical complication, not a display function, powered by a Sellita SW330-2 in the 'Top Grade' specification — adjusted for accuracy in five positions. The sea green sunray dial with Arabic numerals overprinted fourteen times with Super-LumiNova, a screw-down crown, sapphire caseback, and 100m water resistance. The lume on this watch in low light is extraordinary — the second shot shows you why. At ~₹1,65,000 via No Hype Horology, it is the value outlier on this list, and that is the point: it leaves room in the budget for a second piece. The GMT function is genuinely useful if you work with teams in other time zones — which, as a founder and investor, you do.",
+    why: "British design, Swiss-made, founded in 2015. The Lander IV is their GMT – which means two time zones simultaneously, tracked by a fourth hand that runs a 24-hour scale independently of the main time. This is a real mechanical complication, not a display function, powered by a Sellita SW330-2 in the 'Top Grade' specification – adjusted for accuracy in five positions. The sea green sunray dial with Arabic numerals overprinted fourteen times with Super-LumiNova, a screw-down crown, sapphire caseback, and 100m water resistance. The lume on this watch in low light is extraordinary – the second shot shows you why. At ~₹1,65,000 via No Hype Horology, it is the value outlier on this list, and that is the point: it leaves room in the budget for a second piece. The GMT function is genuinely useful if you work with teams in other time zones – which, as a founder and investor, you do.",
     specs: "39.5mm stainless steel case, 10.8mm thin. Sellita SW330-2 GMT automatic, Top Grade, adjusted in 5 positions. 25 jewels, 56-hour power reserve. 100m water resistance. Screw-down crown. Sapphire caseback. Sea green sunray dial.",
-    caveat: "The dial is bold — sea green with a red GMT hand and orange seconds. If your wardrobe is conservative this will feel loud. It is designed to be noticed. The movement is Sellita, not in-house — excellent quality but not the complexity story the IWC or Tudor can tell.",
+    caveat: "The dial is bold – sea green with a red GMT hand and orange seconds. If your wardrobe is conservative this will feel loud. It is designed to be noticed. The movement is Sellita, not in-house – excellent quality but not the complexity story the IWC or Tudor can tell.",
     availability: "Approximately ₹1,65,000 delivered. Available with select dealers.",
   },
   {
@@ -82,9 +82,9 @@ const watches = [
     img2: "/watches/kiran-oris-angled.jpg",
     name: "Oris ProPilot Date",
     ref: "Ref. 01 733 7805 4163 · ₹2,25,000 MRP",
-    why: "The movement argument. Oris Calibre 733-1 is a modified Sellita base with a see-through caseback — you can watch the mechanism work. Knurled bezel borrowed from pilot watch heritage, 41mm, Arabic numerals, date at 6. 100m water resistance. But the real story here is value: at ₹2,25,000 MRP with AD negotiation, you are getting a Swiss automatic with a visible movement, sapphire caseback, and a pilot watch aesthetic that has decades of credibility behind it. Oris is one of the few remaining independent Swiss brands not owned by a conglomerate — still family-run, still making deliberate choices about what they produce. The ProPilot is their working person's pilot watch, and it is honest about what it is. For a first watch, it does not try to be more than it is — which is sometimes exactly what you need.",
+    why: "The movement argument. Oris Calibre 733-1 is a modified Sellita base with a see-through caseback – you can watch the mechanism work. Knurled bezel borrowed from pilot watch heritage, 41mm, Arabic numerals, date at 6. 100m water resistance. But the real story here is value: at ₹2,25,000 MRP with AD negotiation, you are getting a Swiss automatic with a visible movement, sapphire caseback, and a pilot watch aesthetic that has decades of credibility behind it. Oris is one of the few remaining independent Swiss brands not owned by a conglomerate – still family-run, still making deliberate choices about what they produce. The ProPilot is their working person's pilot watch, and it is honest about what it is. For a first watch, it does not try to be more than it is – which is sometimes exactly what you need.",
     specs: "41mm stainless steel case, 11.7mm thick. Calibre 733-1 automatic. See-through caseback. 100m water resistance. Sapphire crystal. Grey dial with Arabic numerals. Date at 6. Leather strap with deployant clasp.",
-    caveat: "The most conservative choice on this list aesthetically. The grey dial and leather strap are understated to the point of invisibility. Excellent if that is the brief — less interesting if you want the watch to say something. Also the weakest appreciation argument of the five.",
+    caveat: "The most conservative choice on this list aesthetically. The grey dial and leather strap are understated to the point of invisibility. Excellent if that is the brief – less interesting if you want the watch to say something. Also the weakest appreciation argument of the five.",
     availability: "MRP ₹2,25,000. Available at authorised dealers.",
   },
   {
@@ -93,16 +93,17 @@ const watches = [
     img2: "/watches/kiran-arcanaut-lume.jpg",
     name: "Arcanaut ARC II D'Arc Roast",
     ref: "33 pieces worldwide · ~₹4,00,000 via NoHype",
-    why: "Nothing on this list — or anyone else's list — is like this watch. The dial is made from real ground coffee beans. James Thompson, Arcanaut's materials director, spent years developing a composite that binds freshly ground coffee with a UV-resistant resin, mills it into a plate, and cuts it into a dial. Each of the 33 dials is fractionally different — the grain, the texture, the depth. The ARC II case is micro-blasted 316L stainless steel, CNC-milled in Copenhagen, with hand-polished highlights applied by Danish watchmakers. The Soprod M100 inside is a Swiss-made automatic adjusted in 5 positions. There is no numbers track, no date, no GMT — just hours and minutes and a dial that looks like an espresso puck photographed from space. It is 33 pieces worldwide, full stop. You bought a watch that 32 other people on the planet own. As a founder who has spent years building something genuinely different from everything else in the market — you will understand immediately why this exists.",
-    specs: "40.52mm stainless steel case, 12.82mm thick, 49.06mm lug-to-lug. Soprod M100 Swiss automatic, adjusted in 5 positions, 28,800vph, 42-hour power reserve. 100m water resistance. Real coffee composite dial — unique per piece. 33 pieces total production.",
-    caveat: "Time-only — no date, no GMT, no complication. The resale market for Arcanaut is thin outside collector circles. This is not an appreciation play — it is a statement of taste. Buy it because you want to own something that nobody else in the room has ever seen, not because it will be worth more in five years.",
-    availability: "Approximately ₹4,00,000 delivered. 33 pieces worldwide — need to confirm availability before anything else.",
+    why: "Nothing on this list – or anyone else's list – is like this watch. The dial is made from real ground coffee beans. James Thompson, Arcanaut's materials director, spent years developing a composite that binds freshly ground coffee with a UV-resistant resin, mills it into a plate, and cuts it into a dial. Each of the 33 dials is fractionally different – the grain, the texture, the depth. The ARC II case is micro-blasted 316L stainless steel, CNC-milled in Copenhagen, with hand-polished highlights applied by Danish watchmakers. The Soprod M100 inside is a Swiss-made automatic adjusted in 5 positions. There is no numbers track, no date, no GMT – just hours and minutes and a dial that looks like an espresso puck photographed from space. It is 33 pieces worldwide, full stop. You bought a watch that 32 other people on the planet own. As a founder who has spent years building something genuinely different from everything else in the market – you will understand immediately why this exists.",
+    specs: "40.52mm stainless steel case, 12.82mm thick, 49.06mm lug-to-lug. Soprod M100 Swiss automatic, adjusted in 5 positions, 28,800vph, 42-hour power reserve. 100m water resistance. Real coffee composite dial – unique per piece. 33 pieces total production.",
+    caveat: "Time-only – no date, no GMT, no complication. The resale market for Arcanaut is thin outside collector circles. This is not an appreciation play – it is a statement of taste. Buy it because you want to own something that nobody else in the room has ever seen, not because it will be worth more in five years.",
+    availability: "Approximately ₹4,00,000 delivered. 33 pieces worldwide – confirm availability before anything else.",
   },
 ];
 
 const nextSteps = [
-  "After our call, we narrow down on one watch. One piece that fits your wrist, your brief and the way you actually live. You said daily wear and you meant it. That rules out anything you will be careful around.",
-  "Do come with a view. Not necessarily a decision — a direction. Tell me which of these pulled at you and why. The one that made you pause is more useful than the one that just made sense on paper. Once we know the direction, we can handle the rest.",
+  "After our call: one watch. Not a shortlist, not a maybe pile. One piece that fits your wrist, your brief, and the way you actually live. You said daily wear and you meant it. That rules out anything you will be careful around. What stays is what you forget is there – until someone asks.",
+  "Come with a view. Not necessarily a decision – a direction. Tell me which of these pulled at you and why. The one that made you pause is more useful than the one that just made sense on paper. Once we know the direction, I handle the rest.",
+  "One thing worth doing before we speak: if the Arcanaut is still available when you read this, find out now. 33 pieces is not a number that waits.",
 ];
 
 // ─── PASSWORD GATE ────────────────────────────────────────────────────────────
@@ -355,7 +356,7 @@ function Brief() {
           One Good Watch
         </div>
         <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, letterSpacing: "0.15em", color: "#3a3830", textTransform: "uppercase" }}>
-          Confidential — {client.name}
+          Confidential – {client.name}
         </div>
       </header>
 
@@ -411,7 +412,7 @@ function Brief() {
         <div style={{ marginBottom: 80 }}>
           <SectionLabel text="Section 3" />
           <SectionTitle>The Shortlist</SectionTitle>
-          <Body>Five options across two tiers — established Swiss houses and precision independents. The range in price is deliberate: the Farer at ₹1,65,000 and the Oris at ₹2,25,000 are not lesser choices. They are different arguments. Come to the call knowing which argument you find most compelling.</Body>
+          <Body>Five options across two tiers – established Swiss houses and precision independents. The range in price is deliberate: the Farer at ₹1,65,000 and the Oris at ₹2,25,000 are not lesser choices. They are different arguments. Come to the call knowing which argument you find most compelling.</Body>
           <div style={{ marginTop: 40 }}>
             {watches.map((w, i) => <WatchCard key={w.id} watch={w} index={i} />)}
           </div>
