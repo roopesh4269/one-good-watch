@@ -9,21 +9,45 @@ const NAV_LINKS = ["How It Works", "About", "Book a Consultation"];
 const SUBSTACK_POSTS = [
   {
     title: "Dear Sub: Meet the Man of Steel",
-    teaser: "The JLC Reverso is not a dress watch. It's functional violence with manners — and possibly the best watch in the world.",
+    teaser: "The JLC Reverso is not a dress watch. It\'s functional violence with manners – and possibly the best watch in the world.",
     url: "https://roopeshbalakrishna.substack.com/p/dear-sub-meet-the-man-of-steel",
     img: "https://substackcdn.com/image/fetch/$s_!-N5_!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F17a371b3-a13c-4ca3-856e-43d7c23e40f7_5669x3965.jpeg"
   },
   {
     title: "The Murph: Or, How I Bought a Watch to Feel Something in the Algorithm Age",
-    teaser: "I didn't buy the Hamilton Murph because I needed another watch. I bought it because of Interstellar guilt.",
+    teaser: "I didn\'t buy the Hamilton Murph because I needed another watch. I bought it because of Interstellar guilt.",
     url: "https://roopeshbalakrishna.substack.com/p/the-murph-or-how-i-bought-a-watch",
     img: "https://substackcdn.com/image/fetch/$s_!KU5T!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F11e16ad3-e75c-41df-b5fe-226ec6408379_3023x4004.heic"
   },
   {
     title: "The Oris Kermit: A Neon Green Middle Finger to Watch Snobbery",
-    teaser: "Under that radioactive dial is everything a watch nerd pretends to care about. But that's not why I bought it.",
+    teaser: "Under that radioactive dial is everything a watch nerd pretends to care about. But that\'s not why I bought it.",
     url: "https://roopeshbalakrishna.substack.com/p/the-oris-kermit-a-neon-green-middle",
     img: "https://substackcdn.com/image/fetch/$s_!_rVN!,w_800,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bd8f95a-68eb-4cdb-9925-5c92c7de6043_2500x3014.avif"
+  },
+  {
+    title: "There is Nothing More Iconic Than the El Primero",
+    teaser: "Not in the Instagram flex sense. In the horology sense. In the desert-island-chronograph sense.",
+    url: "https://roopeshbalakrishna.substack.com/p/there-is-nothing-more-iconic-than",
+    img: "https://substackcdn.com/image/fetch/$s_!SOIF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b789697-b314-4af2-bdfa-eb1ff25c0398_4032x3024.jpeg"
+  },
+  {
+    title: "The Prince Who Outranks the Pilot",
+    teaser: "Why one of the boldest watches in my collection is named after a children\'s book character.",
+    url: "https://roopeshbalakrishna.substack.com/p/the-prince-who-outranks-the-pilot",
+    img: "https://substackcdn.com/image/fetch/$s_!J906!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d01d752-ddb8-4cc6-b0bf-1c3346605fe6_2824x3331.jpeg"
+  },
+  {
+    title: "Carl Bucherer is Dead. Long Live the BiCompax.",
+    teaser: "136 years of watchmaking history. Sold to Rolex in 2023. And the watches? Better value than ever.",
+    url: "https://roopeshbalakrishna.substack.com/p/carl-bucherer-is-dead-long-live-the",
+    img: "https://substackcdn.com/image/fetch/$s_!wJbp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F31b84d83-781a-43f4-8e5c-3e233db0aa84_567x292.jpeg"
+  },
+  {
+    title: "Thirty Eight Turns.",
+    teaser: "Unimpressive. Unapologetic. Unmissable. The Grand Seiko SBGW231 and why silence looks good in steel.",
+    url: "https://roopeshbalakrishna.substack.com/p/thirty-eight-turns",
+    img: "https://substackcdn.com/image/fetch/$s_!FsIE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc272f79f-5ce8-45ba-b917-4b1fd1d2bc36_3024x4032.heic"
   },
 ];
 
@@ -573,7 +597,7 @@ export default function OneGoodWatch() {
               Instinct. Network.<br />Judgment.
             </h2>
             <p className="body-text" style={{ marginBottom: 24 }}>
-              This practice was built on over a decade of being the person friends call before they buy something significant. Not because I know more than everyone — because I've made enough considered decisions myself, and a few wrong ones, to recognise both early.
+              This practice was built on over a decade of being the person friends call before they buy something significant. Not because I know more than everyone – because I've made enough considered decisions myself, and a few wrong ones, to recognise both early.
             </p>
             <p className="body-text" style={{ marginBottom: 24 }}>
               My own collection spans Grand Seiko, Jaeger-LeCoultre, IWC, Zenith, Omega, Panerai, Tudor and others. Each piece was chosen with deliberation. Several were chosen after deliberating too long, watching something I wanted disappear.
@@ -597,7 +621,7 @@ export default function OneGoodWatch() {
               />
             </div>
             <blockquote className="about-quote" style={{ marginBottom: 0, paddingLeft: 32, borderLeft: "2px solid #3d3930" }}>
-              "The market does not need another watch retailer. It needs someone with taste, relationships, and the confidence to say: this one — and here is why."
+              "The market does not need another watch retailer. It needs someone with taste, relationships, and the confidence to say: this one – and here is why."
             </blockquote>
           </div>
         </div>
@@ -734,7 +758,7 @@ export default function OneGoodWatch() {
                 <div style={{ marginBottom: 40 }}>
                   <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 9, letterSpacing: "0.2em", color: "#6a6458", textTransform: "uppercase", marginBottom: 8 }}>What are you looking for?</div>
                   <textarea
-                    rows={3} placeholder="A first serious watch. Adding to a collection. A gift. No idea yet — that's fine too."
+                    rows={3} placeholder="A first serious watch. Adding to a collection. A gift. No idea yet – that's fine too."
                     value={form.message}
                     onChange={e => setForm(f => ({ ...f, message: e.target.value }))}
                     style={{ resize: "none" }}
@@ -762,7 +786,7 @@ export default function OneGoodWatch() {
           <div style={{ padding: "32px", border: "1px solid #1e1c18", textAlign: "left" }}>
             <div className="section-label" style={{ marginBottom: 16 }}>A note on why this exists</div>
             <p style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 19, lineHeight: 1.75, color: "#8a8070", fontStyle: "italic" }}>
-              Collecting watches is one of the few things that rewards patience, curiosity, and a genuine point of view. It isn't about spending because you can — it's about knowing what you want, understanding why it matters, and building something over time that reflects who you are. That's what this practice is here to help with. Whether you're starting out or figuring out what's next.
+              Collecting watches is one of the few things that rewards patience, curiosity, and a genuine point of view. It isn't about spending because you can – it's about knowing what you want, understanding why it matters, and building something over time that reflects who you are. That's what this practice is here to help with. Whether you're starting out or figuring out what's next.
             </p>
           </div>
         </div>
