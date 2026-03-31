@@ -103,6 +103,7 @@ const watches = [
 const nextSteps = [
   "After our call, we narrow it down to one watch. One piece that fits your wrist, your brief and the way you actually live. You said daily wear and you meant it. That rules out anything you will be careful around.",
   "Come with a view. Not necessarily a decision – a direction. Tell me which of these pulled at you and why. The one that made you pause is more useful than the one that just made sense on paper. Once we know the direction, we can handle the rest.",
+  "Speak soon.",
 ];
 
 // ─── PASSWORD GATE ────────────────────────────────────────────────────────────
